@@ -3,7 +3,7 @@ import { events } from './events'
 
 const SvgLoader = {
   install: (app, options) => {
-    const name = options.name || 'svgLoader'
+    const name = 'svgLoader'
     app.config.globalProperties['$' + name] = (param) => {
       events.emit('add', param)
     }
