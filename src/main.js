@@ -1,7 +1,7 @@
 import Loader from './Loader.vue'
 import { events } from './events'
 
-const SvgLoader = {
+export const SvgLoader = {
   install: (app, options) => {
     const name = options.name || 'svgLoader'
     app.config.globalProperties['$' + name] = (param) => {
@@ -10,5 +10,3 @@ const SvgLoader = {
     app.component('svg-loader', Loader)
   },
 }
-
-export default SvgLoader

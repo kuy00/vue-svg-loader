@@ -17,13 +17,11 @@
     "build": "rollup --config rollup.config.js",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "mitt": "^3.0.0",
-    "rollup": "^2.66.0",
-    "vue": "^3.0.0"
-  },
   "devDependencies": {
+    "mitt": "^3.0.0",
+    "vue": "^3.0.0",
+    "core-js": "^3.6.5",
+    "rollup": "^2.66.0",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
