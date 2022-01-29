@@ -11,7 +11,6 @@
 </template>
 
 <script>
-// import { events } from './events'
 import { fileLoad, getPath, getStyle } from './handler'
 
 export default {
@@ -42,7 +41,6 @@ export default {
     }
   },
   mounted: function () {
-    // events.on('add', this.addProps)
     this.load()
   },
   methods: {
