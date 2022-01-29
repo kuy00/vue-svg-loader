@@ -1,5 +1,5 @@
 {
-  "name": "svg-loader",
+  "name": "svg-loader-vue3",
   "description": "get svg file load in your vue js project",
   "version": "1.0.0",
   "author": "kuy",
@@ -57,6 +57,7 @@
     "not dead"
   ],
   "keywords": [
+    "vue",
     "vue3",
     "svg",
     "loader",
