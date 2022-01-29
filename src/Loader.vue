@@ -51,7 +51,6 @@ export default {
 
       this.svg = getPath(file)
       this.styles = getStyle(file)
-      console.log(this.width || this.styles.width)
     },
   },
 }
