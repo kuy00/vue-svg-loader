@@ -6,3 +6,4 @@ src
 .eslitignore
 .eslintrc.js
 *.config.js
+*.bak

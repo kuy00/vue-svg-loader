@@ -1,7 +1,7 @@
 {
   "name": "svg-loader-vue",
   "description": "get svg file load in your vue js project",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "kuy",
   "repository": {
     "type": "git",
@@ -11,7 +11,8 @@
     "url": "https://github.com/kuy472013/svg-loader/issues",
     "email": "kuy47201@gmail.com"
   },
-  "main": "dist/index.js",
+  "license": "MIT",
+  "main": "dist/index.esm.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "rollup --config rollup.config.js",
