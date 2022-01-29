@@ -1,4 +1,14 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import Loader from './Loader.vue'
+import { events } from './events'
 
-createApp(App).mount('#app')
+const SvgLoader = {
+  install: (app, options) => {
+    const name = options.name || 'svgLoader'
+    app.config.globalProperties['$' + name] = (param) => {
+      events.emit('add', param)
+    }
+    app.component('svg-loader', Loader)
+  },
+}
+
+export default SvgLoader
