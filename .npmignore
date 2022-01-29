@@ -4,4 +4,5 @@ src
 .eslintrc
 .gitignore
 .eslitignore
+.eslintrc.js
 *.config.js

@@ -1,7 +1,7 @@
 {
   "name": "svg-loader-vue",
   "description": "get svg file load in your vue js project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "kuy",
   "repository": {
     "type": "git",
