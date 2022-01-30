@@ -1,4 +1,5 @@
 [![npm version](https://badge.fury.io/js/svg-loader-vue.svg)](https://badge.fury.io/js/svg-loader-vue)
+[![npm](https://img.shields.io/npm/dm/svg-loader-vue)](https://www.npmjs.com/package/svg-loader-vue)
 
 # Vue.js svg loader
 
